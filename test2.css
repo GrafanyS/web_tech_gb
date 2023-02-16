@@ -6,6 +6,18 @@
 html {
     background-color: #ccc;
 }
+body {
+    margin: 0;
+    font-family: var(--bs-body-font-family);
+    font-size: var(--bs-body-font-size);
+    font-weight: var(--bs-body-font-weight);
+    line-height: var(--bs-body-line-height);
+    color: var(--bs-body-color);
+    text-align: var(--bs-body-text-align);
+    background-color: var(--bs-body-bg);
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+}
 
 .title, .dsc {
     text-align: center;
@@ -14,13 +26,14 @@ html {
 .container {
     margin: 0 auto;
     width: 1200px;
+
     
 }
 
 .header {
     background-color: #fff;
     height: 150px;
-    margin-top: 150px;
+    margin-top: 50px;
 }
 
 .flex {
@@ -81,5 +94,6 @@ html {
 .item-box {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
 }
+
