@@ -5,9 +5,12 @@
 
 html {
     background-color: #ccc;
+    margin: 0 auto;
+    
+
 }
 body {
-    margin: 0;
+    margin: 0 auto;
     font-family: var(--bs-body-font-family);
     font-size: var(--bs-body-font-size);
     font-weight: var(--bs-body-font-weight);
@@ -17,10 +20,17 @@ body {
     background-color: var(--bs-body-bg);
     -webkit-text-size-adjust: 100%;
     -webkit-tap-highlight-color: transparent;
+    
+    
+}
+h2 {
+    color: #2f6d63;
 }
 
 .title, .dsc {
     text-align: center;
+    margin: 0 auto;
+    color: #2f6d63;
 }
 
 .container {
@@ -41,7 +51,7 @@ body {
 }
 
 .menu {
-    margin-top: 50px;
+    margin-top: 20px;
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -50,7 +60,7 @@ body {
 .menu-link {
     display: block;
     text-decoration: none;
-    padding: 15px;
+    padding: 10px;
     background-color: darkmagenta;
     color: #fff;
     text-align: center;
@@ -95,5 +105,17 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+body {
+    --bs-body-font-family: var(--bs-font-monospace);
+    --bs-body-line-height: 1.4;
+    --bs-body-bg: var(--bs-gray-100);
+}
+
+.table {
+    --bs-table-color: var(--bs-gray-600);
+    --bs-table-bg: var(--bs-gray-100);
+    --bs-table-border-color: transparent;
 }
 
