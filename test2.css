@@ -26,6 +26,9 @@ body {
 h2 {
     color: #2f6d63;
 }
+footer {
+    color: #3023b9;
+}
 
 .title, .dsc {
     text-align: center;
