@@ -33,7 +33,7 @@
 - [Markup Validation Service](https://validator.w3.org/)
 - [Punto Switcher - программа, которая автоматически переключает раскладку клавиатуры.](https://yandex.ru/soft/punto/win/index)
 
-![Текст с описанием картинки](/img/mini_magick20221118-73-qc4igl.png)
+![Текст с описанием картинки](/html_css/img/mini_magick20221118-73-qc4igl.png)
 
 - [РыбаТекст](https://fish-text.ru/)
 - [CSS Справочник примеры и элементы](https://html5css.ru/cssref/default.php)
