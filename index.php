@@ -15,7 +15,7 @@ $skills = [
 
 $workExperience = [
     [
-        'jobTitle' => 'РУП "Бултелеком"',
+        'jobTitle' => 'РУП "Белтелеком"',
         'periodStart' => 'Ноябрь 1995 ',
         'periodFinish' => 'Текущий',
         'description' => 'Республиканское унитарное предприятие электросвязи «Белтелеком» – ведущая телекоммуникационная 
@@ -30,16 +30,18 @@ $workExperience = [
 ?>
 
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 <head>
     <title>Мое резюме</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="/static/w3.css">
+     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/static/font-awesome.min.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
         html, body, h1, h2, h3, h4, h5, h6 {
             font-family: 'Jost', sans-serif;
@@ -177,7 +179,9 @@ $workExperience = [
                     <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item">
                         <p><strong>Учебный центр (сетевая академия)
                                 компании&nbsp;</strong><strong>Сі</strong><strong>s</strong><strong>со</strong></p>
-                        <p>Полная информация об академии на сайте <a href="http://netacad.by/">http://netacad.by/</a>
+                        <p>
+                            Полная информация об академии на сайте
+                            <a href="http://netacad.by/">http://netacad.by/</a>
                         </p>
                         <p><em>Направления обучения:</em></p>
                         <ul>
